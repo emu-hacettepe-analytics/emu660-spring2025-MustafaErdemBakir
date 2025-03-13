@@ -10,6 +10,16 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a) mhjhjk
+## (a) **Özet: Veri Bilimi, Optimizasyon ve Kariyer Gelişimi Üzerine Konuşma**
+
+Bu konuşmada, veri bilimi, optimizasyon teknikleri ve bu alanların perakende, ulaşım ve sağlık sektörlerindeki uygulamaları ele alınmaktadır. Konuşmacı, akademik ve profesyonel kariyerinden örnekler vererek, veri biliminin nasıl geniş bir etkiye sahip olduğunu ve disiplinler arası yaklaşımların önemini vurgulamaktadır.
+
+Veri biliminin istatistikten farklı olduğu, sadece model geliştirmekle sınırlı olmadığı, mühendislik becerileri, alan bilgisi ve algoritmik düşünme gerektirdiği belirtilmektedir. Model oluşturma sürecinde problem tanımlamanın, veri toplamanın ve ön işlemenin kritik olduğu ifade edilmiştir. Ayrıca, veri görselleştirme teknikleriyle anlamlı içgörüler elde etmenin ve modellerin gerçek dünya koşullarında değerlendirilmesinin gerekliliği vurgulanmaktadır.
+
+Konuşmada, perakende sektöründe satış tahmini ve envanter yönetimi için optimizasyon algoritmalarının nasıl kullanıldığı ele alınmıştır. Özellikle, makine öğrenimi ve büyük veri analitiği kullanılarak perakendecilere optimal stok yönetimi çözümleri sunan sistemler tanıtılmıştır. Otonom araç teknolojileri üzerine yapılan doktora çalışması kapsamında ise, trafik akış modelleri ve otonom araç konvoyları üzerine yapılan simülasyon çalışmalarından bahsedilmiştir. Otonom araçların trafiği nasıl daha verimli hale getirebileceği ve araçlar arası iletişimin trafik akışına etkisi tartışılmıştır.
+
+Veri biliminin disiplinler arası doğasının altı çizilmiş ve gelecekte yapay zekanın veri bilimcilerin yerini almasının mümkün olmadığı ifade edilmiştir. İnsan yargısının, problem tanımlama ve modelleme süreçlerindeki önemine vurgu yapılmış ve veri bilimi süreçlerinin sistematik olarak nasıl ilerlemesi gerektiği anlatılmıştır. Son olarak, kariyer gelişimi bağlamında, endüstri mühendisleri için programlama becerilerinin önemi ve analitik düşünme yeteneklerinin nasıl geliştirilebileceğine dair öneriler sunulmuştur.
+
+Bu konuşma, veri bilimi ve optimizasyon alanlarında çalışan veya bu alanlara ilgi duyan bireyler için kapsamlı bir rehber niteliği taşımaktadır.
 
 ## (b)
