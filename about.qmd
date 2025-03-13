@@ -23,6 +23,6 @@ sidebar: false
 
 # Competencies
 
-R, Quarto, Git, Python, GAMS
+R, Quarto, Git, Python, GAMS, SPSS
 
 # Hobbies
