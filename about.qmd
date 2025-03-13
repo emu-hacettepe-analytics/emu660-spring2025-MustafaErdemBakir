@@ -3,35 +3,23 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/vesikalık.jpeg){fig-align="center" width="225"}
 
 # Education
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., System Engineering, Turkish Military Academy, Turkey, 2007 - 2011.
+-   M.S., Unmanned and Autonomous Systems Engineering, Turkish Aeronautical University, Turkey, 2022 - 2024.
+-   Ph.D., Industrial Engineering, Hacettepe University, Turkey, 2025 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
-
-## Internships
-
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
-
-# Projects
-
-1.  TUBİTAK 1001..........................
+1.  Turkish Armed Forces, Captain, Unmanned Vehicle Pilot 2011-ongoing
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  Optimizing Unmanned Air Vehicle (UAV) Base Locations: A Multi-objective Optimization Approach Mustafa Erdem Bakir, Fatih Kasimoglu Department of Unmanned and Autonomous System Engineering, Graduate School of Natural and Applied Sciences, University of Turkish Aeronautical Association, 06790, Ankara.
 
 # Competencies
 
