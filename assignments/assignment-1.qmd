@@ -23,3 +23,163 @@ Veri biliminin disiplinler arası doğasının altı çizilmiş ve gelecekte yap
 Bu konuşma, veri bilimi ve optimizasyon alanlarında çalışan veya bu alanlara ilgi duyan bireyler için kapsamlı bir rehber niteliği taşımaktadır.
 
 ## (b)
+
+{r}
+
+\# mtcars veri setini yükleme
+
+data(mtcars)
+
+\# compute_stats fonksiyonunu tanımlama
+
+compute_stats \<- function(x) {
+
+  \# Sayısal olmayan veya boş vektör kontrolü
+
+  if (!is.numeric(x)) {
+
+    stop("Girdi sayısal bir vektör olmalıdır")
+
+  }
+
+  if (length(x) == 0) {
+
+    stop("Girdi vektörü boş olamaz")
+
+  }
+
+  \# İstenen istatistikleri hesaplama
+
+  mean_val \<- mean(x, na.rm = TRUE)
+
+  median_val \<- median(x, na.rm = TRUE)
+
+  variance_val \<- var(x, na.rm = TRUE)
+
+  iqr_val \<- IQR(x, na.rm = TRUE)
+
+  min_val \<- min(x, na.rm = TRUE)
+
+  max_val \<- max(x, na.rm = TRUE)
+
+  \# Sonuçları isimlendirilmiş bir liste olarak döndürme
+
+  result \<- list(
+
+    mean = mean_val,
+
+    median = median_val,
+
+    variance = variance_val,
+
+    IQR = iqr_val,
+
+    minimum = min_val,
+
+    maximum = max_val
+
+  )
+
+  return(result)
+
+}
+
+\# mtcars veri setinin bir sütunu için fonksiyonu test etme
+
+compute_stats(mtcars\$mpg)
+
+\# Döngü Kullanarak Fonksiyonu Uygulama
+
+for (col_name in colnames(mtcars)) {
+
+  column_data \<- mtcars\[\[col_name\]\] 
+
+  if (!is.numeric(column_data)) next 
+
+  stats_result \<- compute_stats(column_data)
+
+  cat("\\nİstatistikler -", col_name, ":\\n") 
+
+  print(stats_result) 
+
+}
+
+\# mtcars veri setindeki tüm sayısal sütunlara compute_stats fonksiyonunu uygula
+
+stats_sapply \<- sapply(mtcars, function(col) {
+
+  if (is.numeric(col)) compute_stats(col) else NULL
+
+})
+
+\# Sonuçları ekrana yazdır
+
+print(stats_sapply)
+
+{r}
+
+\# Gerekli paketi yükleyeme
+
+install.packages("dslabs")
+
+library(dslabs)
+
+data(na_example)
+
+print(na_example)
+
+\# NA değerlerinin toplam sayısını ve konumlarını belirleme
+
+na_count \<- sum(is.na(na_example))  \# Toplam NA sayısı
+
+na_positions \<- which(is.na(na_example))  \# NA'ların indeks konumları
+
+cat("\\nToplam NA sayısı:", na_count, "\\n")
+
+cat("NA'ların indeks konumları:", na_positions, "\\n")
+
+\# NA'ları yok sayarak ortalama ve standart sapma hesaplama
+
+mean_original \<- mean(na_example, na.rm = TRUE)
+
+sd_original \<- sd(na_example, na.rm = TRUE)
+
+print(paste("\\nOrijinal Veri (NA'sız) - Ortalama:", mean_original, "\\n"))
+
+print(paste("Orijinal Veri (NA'sız) - Standart Sapma:", sd_original, "\\n"))
+
+\# Eksik Verileri Düzeltme - Versiyon 1 (NA'ları Medyan ile Doldurma)
+
+na_example_median \<- replace(na_example, is.na(na_example), median(na_example, na.rm = TRUE))
+
+\# Eksik Verileri Düzeltme - Versiyon 2 (NA'ları Rastgele Değer ile Doldurma)
+
+na_example_random \<- replace(na_example, is.na(na_example), sample(na_example\[!is.na(na_example)\], sum(is.na(na_example)), replace = TRUE))
+
+\# Yeni veri setlerinin istatistiklerini hesaplama
+
+mean_median \<- mean(na_example_median)
+
+sd_median \<- sd(na_example_median)
+
+mean_random \<- mean(na_example_random)
+
+sd_random \<- sd(na_example_random)
+
+print(paste("Medyan ile Doldurulmuş Veri - Ortalama:", mean_median))
+
+print(paste("Medyan ile Doldurulmuş Veri - Standart Sapma:", sd_median))
+
+print(paste("Rastgele Değer ile Doldurulmuş Veri - Ortalama:", mean_random))
+
+print(paste("Rastgele Değer ile Doldurulmuş Veri - Standart Sapma:", sd_random))
+
+\# Sonuçları Yorumlama
+
+print("\\n Sonuç Yorumları:")
+
+print("- Medyan ile doldurulan veri seti, ortalamayı büyük ölçüde koruyabilir.")
+
+print("- Rastgele değerle doldurma yöntemi, veri dağılımını değiştirebilir ve farklı sonuçlar üretebilir.")
+
+print("- \*\*Eğer veri normal dağılıma sahipse, medyan ile doldurma yöntemi genellikle daha güvenilir bir seçimdir.\*\*")
