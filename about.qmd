@@ -17,6 +17,8 @@ sidebar: false
 
 1.  Turkish Armed Forces, Captain, Unmanned Vehicle Pilot 2011-ongoing
 
+## Internships
+
 # Publications
 
 1.  Optimizing Unmanned Air Vehicle (UAV) Base Locations: A Multi-objective Optimization Approach Mustafa Erdem Bakir, Fatih Kasimoglu Department of Unmanned and Autonomous System Engineering, Graduate School of Natural and Applied Sciences, University of Turkish Aeronautical Association, 06790, Ankara.
@@ -24,5 +26,9 @@ sidebar: false
 # Competencies
 
 R, Quarto, Git, Python, GAMS, SPSS
+
+# Resume
+
+[Mustafa Erdem Bakir-CV](docs/Mustafa_Erdem_Bakir_CV.pdf)
 
 # Hobbies
