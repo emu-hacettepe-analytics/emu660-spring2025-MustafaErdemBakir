@@ -2,7 +2,7 @@
 title: "Assignment 1"
 ---
 
-# Assignment 
+# Assignment
 
 My first assignment has two parts.
 
