@@ -4,9 +4,9 @@ title: "Assignment 1"
 
 # Assignment
 
-My first assignment has two parts.
 
 ## (a) Summary Discussion on Data Science Optimization and Career Development
+
 This discussion explores data science, optimization techniques, and their applications in retail, transportation, and healthcare sectors. The speaker illustrates the broad impact of data science through examples from both academic and professional experiences, emphasizing the importance of interdisciplinary approaches in this evolving field.
 
 It is highlighted that data science differs from statistics, as it extends beyond mere model development. The field necessitates engineering skills, domain expertise, and algorithmic thinking. The significance of problem definition, data collection, and preprocessing in model building is underscored. Additionally, the role of data visualization techniques in deriving meaningful insights and assessing models under real-world conditions is emphasized.
