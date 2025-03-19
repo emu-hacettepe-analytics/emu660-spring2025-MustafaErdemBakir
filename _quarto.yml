@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Mustafa Erdem's Analytics Lab"
+  title: "Mustafa Erdem Bakir's Analytics Lab"
   navbar:
     search: true
     left:
