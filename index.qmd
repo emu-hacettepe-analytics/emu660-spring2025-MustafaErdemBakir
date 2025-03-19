@@ -7,3 +7,4 @@ Hello!! My name is Mustafa Erdem BAKIR
 This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
+![](assets/images/akinci.png){fig-align="center" width="541"}
